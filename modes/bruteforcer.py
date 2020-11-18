@@ -1,6 +1,7 @@
 import copy
 from urllib.parse import urlparse, unquote
 
+from distutils import core
 from core.colors import good, green, end
 from core.requester import requester
 from core.utils import getUrl, getParams
